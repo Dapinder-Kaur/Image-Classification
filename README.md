@@ -1,9 +1,4 @@
 
-# Objectives:
-- To enhance the accuracy of wildlife species detection through advanced deep learning techniques.
-- To minimize the need for manual annotation by leveraging automated image analysis.
-- To develop a deployable and user-friendly tool that can support conservation efforts in the field.
-
 # Image Classification using CNN and Transfer Learning
 
 ## Project Overview
