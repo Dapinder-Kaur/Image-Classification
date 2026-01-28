@@ -1,12 +1,36 @@
-Goal:
+
+# Objectives:
+- To enhance the accuracy of wildlife species detection through advanced deep learning techniques.
+- To minimize the need for manual annotation by leveraging automated image analysis.
+- To develop a deployable and user-friendly tool that can support conservation efforts in the field.
+
+# Image Classification using CNN and Transfer Learning
+
+## Project Overview
+This project provides a deep learning solution designed to automate the detection and classification of wildlife species within remote sensing imagery. The primary objective is to support global conservation efforts by providing researchers with a tool for monitoring endangered animals in their natural habitats.
 
 The goal of this project is to build a deep learning model capable of automatically detecting and classifying wildlife species from remote sensing images.
 
-Objectives:
+The model evolved through iterative development, moving from a baseline Convolutional Neural Network (CNN) to a highly optimized architecture leveraging MobileNetV2 for superior feature extraction and accuracy.
 
-• To enhance the accuracy of wildlife species detection through advanced deep learning techniques.
+## Performance and Metrics
+* **Final Test Accuracy:** 93.67%
+* **Architecture:** MobileNetV2 (Transfer Learning)
+* **Optimization Techniques:** Dropout layers and extensive data augmentation (rotations, zooms, flips) were utilized to eliminate overfitting and ensure the model generalizes well to complex, real-world backgrounds.
 
-• To minimize the need for manual annotation by leveraging automated image analysis.
+## Key Features
+* **Iterative Model Development:** Transitioned from custom CNN layers to pre-trained weights to maximize precision.
+* **Advanced Data Pipeline:** Engineered a custom loading pipeline capable of parsing YOLO-format labels and converting them into categorical variables for supervised learning.
+* **Real-Time Inference Web App:** Integrated a Streamlit-based interface where users can upload field imagery and receive instant classification results with associated confidence scores.
+* **Robust Pre-processing:** Utilized OpenCV and NumPy for image standardization and noise reduction.
 
-• To develop a deployable and user-friendly tool that can support conservation efforts in the field.
+## Tech Stack
+* **Deep Learning:** TensorFlow, Keras
+* **Base Model:** MobileNetV2
+* **Deployment:** Streamlit
+* **Computer Vision:** OpenCV
+* **Data Manipulation:** NumPy, Scikit-learn, Pandas
+* **Programming Language:** Python
+
+
 
