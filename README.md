@@ -4,8 +4,6 @@
 ## Project Overview
 This project provides a deep learning solution designed to automate the detection and classification of wildlife species within remote sensing imagery. The primary objective is to support global conservation efforts by providing researchers with a tool for monitoring endangered animals in their natural habitats.
 
-The goal of this project is to build a deep learning model capable of automatically detecting and classifying wildlife species from remote sensing images.
-
 The model evolved through iterative development, moving from a baseline Convolutional Neural Network (CNN) to a highly optimized architecture leveraging MobileNetV2 for superior feature extraction and accuracy.
 
 ## Performance and Metrics
